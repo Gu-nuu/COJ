@@ -1,0 +1,223 @@
+body{
+		margin:0px;
+		padding: 0px;
+		
+}
+p{
+	margin: 10px;
+	font-family:"나눔스퀘어";
+}
+
+li:hover a{
+	text-decoration:none;
+	color:rgb(204,102,51);
+}
+li a{
+	color:white;
+	cursor:pointer;
+}
+.body-box{
+	width:1140px;
+	margin:auto;
+}
+.navbar-default{
+	background-color:rgb(204,102,51);
+	height:50px;
+}
+#head-top{
+	height: 50px;
+}
+#logo{
+	padding: 10px;
+	float:left;
+	color: rgb(204,102,51);
+	font-weight: bold;
+	font-size:100;
+	font-family:"나눔스퀘어_ac ExtraBold";
+	
+}
+.button-color{
+	color: rgb(204,102,51);
+    border-color: rgb(204,102,51);
+}
+#user{
+	padding:6px;
+	float:right;
+	height:50px;
+}
+#body-left-1{
+	width:30%;
+	
+}
+#body-middle{
+	width:40%;
+}
+#body-right-1{
+	width:30%;
+}
+
+.box{
+	
+	border: 1px solid lightgrey;
+	margin:5px;
+	padding:5px;
+	border-radius:5px;
+}
+.menu-name{
+	border-bottom:1px solid rgb(204,102,51);
+	margin-bottom:5px;
+	padding: 5px;
+	font-family:"나눔스퀘어_ac ExtraBold";
+}
+.innerbox{
+	border: 1px solid rgb(204,102,51);
+}
+.btn-default:hover{
+	background-color: rgb(204,102,51);
+	color: white;
+	text-decoration:none;
+	cursor:pointer;
+}
+.btn-default{
+	color:rgb(204,102,51);
+	border:1px solid rgb(204,102,51);
+	background-color: white;
+	border-radius:5px;
+	padding: 5px;
+	width:80px;
+}
+.btn-default:hover a{
+	background-color: rgb(204,102,51);
+	color: white;
+	text-decoration:none;
+}
+.btn-default a{
+	color:rgb(204,102,51);
+	background-color: white;
+}
+#contest{
+	display:flex;
+	flex-direction:row;
+}
+.font-default{
+	color:rgb(204,102,51);
+	font-family:"나눔스퀘어";
+}
+.font-bold{
+	font-weight:bold;
+}
+.content{
+	display:flex;
+}
+.img_css{
+	width:100%;
+	
+}
+#footer{
+	background-color:rgb(204,102,51);
+	color:white;
+	height:40px;
+}
+.clearfix::after{
+	display:block;
+	clear: both;
+	content:'';
+}
+
+.more-btn{
+	float:right;
+	margin:5px;
+	color: grey;
+	
+}
+#nav li:hover{
+	background-color:white;
+}
+
+
+
+#nav li{
+	float:left;
+	height:50px;
+	padding:15px;
+	box-sizing:border-box;
+	font-family:"나눔스퀘어";
+}
+#nav ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+a:hover{
+	text-decoration:none;
+}
+.quick-menu-box{
+	padding: 10px;
+	
+}
+.quick-icon{
+	width:50px;
+}
+.quick-font:hover{
+	border-bottom:1px solid rgb(204,102,51);
+}
+.quick-font{
+	font-family:"나눔스퀘어";
+	color:rgb(204,102,51);
+	margin:5px;
+}
+
+#page-name{
+	color:rgb(204,102,51);
+	font-size:large;
+}
+#logo a{
+	text-decoration:none;
+}
+#nav ul li a{
+	text-decoration:none;
+}
+
+.noline-design {
+	margin:5px;
+	padding:5px;
+}
+
+.notice {
+	margin:10px 10px 0px 10px;
+	padding:10px;
+	font-family:"나눔스퀘어_ac ExtraBold";
+}
+
+.inner-title p {
+	text-align:"center";
+	font-family:"나눔스퀘어_ac ExtraBold"
+}
+
+.user-emo h1 {
+	text-align:"center";
+	font-family:"나눔스퀘어_ac ExtraBold"
+}
+
+
+.inner-content-main {
+	text-align:center;
+	font-family:"나눔스퀘어_ac ExtraBold"
+}
+
+.b-title {
+	font-family:"나눔스퀘어_ac ExtraBold";
+	font-size:larger;
+}
+
+.fancy-design {
+	margin:5px;
+	padding:5px;
+	background-color: white;
+  	border: 5px solid transparent;
+  	border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  	border-image-slice: 1;
+  	margin: 20px auto;
+  	width: 100%;
+
+}

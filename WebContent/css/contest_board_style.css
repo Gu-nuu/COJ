@@ -1,0 +1,168 @@
+#body-box{
+ width:1140px;
+ margin:auto;
+ font-family: "나눔스퀘어";
+}
+
+#head-title{
+	text-align: left;
+    padding-left: 25px;
+}
+
+.head-title-design {
+	margin-top:-10px;
+	margin:10px;
+    padding:5px;
+    border-bottom: 1px solid rgb(204,102,51);
+    color: rgb(204,102,51);
+    font-family: "나눔스퀘어_ac ExtraBold";
+}
+
+#body-left{
+ width:75%;
+ box-sizing:border-box;
+ border:1px solid lightgrey;
+}
+
+.innerbox{
+	border: 1px solid lightgrey;
+	margin:10px;
+}
+
+#body-right{
+ width:25%;
+ box-sizing:border-box;
+}
+
+
+#list div:hover{
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+#post-image{
+	text-align:center;
+}
+
+#post-text{
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
+.box{
+ border: 1px solid lightgray;
+ margin:10px;
+ padding:10px;
+ 
+}
+
+.head {
+	padding:5px;
+}
+
+.btn-contest:hover{
+ background-color: rgb(204,102,51);
+ color: white;
+ text-decoration:none;
+ cursor:pointer;
+}
+
+.btn-contest{
+ color:rgb(204,102,51);
+ border:1px solid rgb(204,102,51);
+ background-color: white;
+ border-radius:5px;
+ padding: 5px;
+ width:80px;
+}
+
+.btn-contest a{
+    color: rgb(204,102,51);
+    text-decoration: none;
+}
+
+.btn-contest:hover a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.content {
+    display:flex;
+
+}
+
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post{
+    width:48%;
+
+}
+
+#post-title{
+
+    font-size: large;
+    font-family: "나눔스퀘어_ac ExtraBold";
+    border-bottom:1px solid lightgray;
+    
+}
+
+#inner-title {
+	font-family: "나눔스퀘어_ac ExtraBold";
+	border-bottom:1px solid lightgray;
+}
+
+.info-left{
+    float: left;
+}
+
+.info-right{
+    float: right;
+}
+
+.clearfix::after{
+    display:block;
+    clear: both;
+    content:'';
+ }
+
+ .button{
+     float: right;
+     text-align: center;
+     margin-right:5px;
+ }
+ 
+ .text{
+ 	text-overflow: ellipsis;
+	overflow: hidden;
+ }
+
+ li:hover a{
+    text-decoration:none;
+    color:rgb(204,102,51);
+ }
+
+ li a{
+    color:white;
+    cursor:pointer;
+ }
+ 
+ .design {
+    border: 1px solid lightgray;
+    margin:5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.noline-design {
+	margin:10px;
+    padding: 10px;
+}
+
+ 

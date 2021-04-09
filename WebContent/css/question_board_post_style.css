@@ -1,0 +1,182 @@
+.content {
+    display: flex;
+}
+
+.body-box {
+    width: 1140px;
+    margin: auto;
+    font-family: "나눔스퀘어";
+}
+
+#body-left {
+    width: 75%;
+}
+
+#title {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.title-design { 
+    margin:10px;
+    padding:5px;
+    border-bottom: 1px solid rgb(204,102,51);
+    color: rgb(204,102,51);
+    font-family: "나눔스퀘어_ac ExtraBold";
+}
+
+#user-info {
+    margin: 5px;
+    padding: 5px;
+}
+
+.user-name {
+
+    font-family: "나눔스퀘어_ac ExtraBold";
+    font-size: x-large;
+}
+
+#post-title {
+    margin:10px;
+    padding:10px;
+    font-family: "나눔스퀘어_ac ExtraBold";
+    font-size: xx-large;
+}
+
+#post-content {
+    font-size: larger;
+    margin:10px;
+    padding:10px;
+}
+
+#pic-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-design {
+     width: 100%;
+}
+
+.write-username {
+    font-family: "나눔스퀘어_ac ExtraBold";
+    font-size: large;
+    float: left;
+}
+
+#write {
+	margin-bottom:15px;
+}
+
+.reply-design {
+    font-size: large;
+    font-family: "나눔스퀘어";
+    resize: none;
+    width:98%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.list:hover div:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+#post-right {
+	font-size:larger;
+
+}
+
+#inner{
+    height: auto;
+    margin:10px;
+}
+
+#inner-title {
+    border-bottom:1px solid lightgray;
+    font-family: "나눔스퀘어_ac ExtraBold";
+}
+
+#inner-pic {
+    width: 200px;
+    height:150px;
+}
+
+#inner-text {
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow: hidden;
+}
+
+.info-design-left {
+    float: left;
+}
+
+.info-design-right {
+    float: right;
+}
+
+#body-right {
+    width: 25%;
+}
+
+#sidebar-title {
+    text-align: left;
+    margin-left: 25px;
+    font-family: "나눔스퀘어_ac ExtraBold";
+}
+
+.clearfix::after {
+    display:block;
+    clear: both;
+    content:'';
+}
+
+.btn-q {
+    color:rgb(204,102,51);
+    border:1px solid rgb(204,102,51);
+    background-color: white;
+    border-radius:5px;
+    margin: 5px;
+    padding: 5px;
+    width:80px;
+    float: right;
+    text-align: center;
+}
+
+.btn-q:hover {
+    background-color: rgb(204,102,51);
+    color: white;
+    text-decoration:none;
+}
+
+.btn-q a {
+    text-decoration:none;
+    color:rgb(204,102,51);
+}
+
+.btn-q:hover a {
+    color:white;
+    cursor:pointer;
+}
+
+.design {
+    border: 1px solid lightgray;
+    margin:5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.noline-design {
+    margin:5px;
+    padding: 5px;
+}
+
+
+
+
+

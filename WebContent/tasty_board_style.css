@@ -1,0 +1,108 @@
+.body-box {
+    width: 1140px;
+    margin: auto;
+    font-family: "나눔스퀘어";
+}
+
+#title {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.title-design { 
+    margin:10px;
+    padding:5px;
+    border-bottom: 1px solid rgb(204,102,51);
+    color: rgb(204,102,51);
+    font-family: "나눔스퀘어_ac ExtraBold";
+}
+
+#body-main {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#body-main:hover div:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+#body-left {
+    width: 33%;
+    margin-left: 20px;
+    flex: 1;
+}
+
+#body-center {
+    width: 33%;
+    flex: 1;
+}
+
+#body-right {
+    width: 33%;
+    margin-right: 20px;
+    flex: 1;
+}
+
+#content {
+    margin: 20px;
+    
+}
+
+.pic-design {
+    width: 320px;
+    height: 300px
+}
+
+.inner-name {
+    text-align: center;
+    font-family: "나눔스퀘어_ac ExtraBold";
+    font-size: x-large;
+    padding: 10px;
+}
+
+.inner-num {
+    text-align: center;
+    padding: 10px;
+}
+
+.inner-time {
+    text-align: center;
+    padding: 10px;
+}
+
+.inner-text {
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.inner-place {
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.design {
+    border: 1px solid lightgray;
+    margin:5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.noline-design {
+    margin: 5px;
+    padding: 10px;
+}
+
+.nomargin-design {
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.clearfix::after {
+    display:block;
+    clear: both;
+    content:'';
+}
